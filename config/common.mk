@@ -159,8 +159,5 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_res_images
 
-# ThemeOverlays
-include packages/overlays/Themes/themes.mk
-
 # Recommend using the non debug dexpreopter
 USE_DEX2OAT_DEBUG := false
